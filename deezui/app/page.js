@@ -1,9 +1,19 @@
-export default function Home() {
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
+import React from "react";
+
+function page() {
   return (
-    <main>
+    <div>
       <div>
-        
+        <Footer />
       </div>
-    </main>
+    </div>
   );
 }
+
+export default page;
+
+// #545454 dark gray
+// #cfc6c6 
